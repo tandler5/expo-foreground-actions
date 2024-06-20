@@ -54,12 +54,12 @@ android {
   compileSdkVersion safeExtGet("compileSdkVersion", 33)
 
   compileOptions {
-    sourceCompatibility JavaVersion.VERSION_1_17
-    targetCompatibility JavaVersion.VERSION_1_17
+    sourceCompatibility JavaVersion.VERSION_1_11
+    targetCompatibility JavaVersion.VERSION_1_11
   }
 
   kotlinOptions {
-    jvmTarget = JavaVersion.VERSION_1_17.majorVersion
+    jvmTarget = '11'
   }
 
   namespace "expo.modules.foregroundactions"
